@@ -6,6 +6,6 @@ describe Monday do
   end
 
   it 'does something useful' do
-    expect(false).to eq(true)
+    expect(Monday.say_hi).not_to be nil
   end
 end

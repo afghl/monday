@@ -1,7 +1,11 @@
 require "monday/version"
+begin
+  require "pry"
+rescue LoadError
+end
 
 module Monday
   def self.say_hi
-    puts "hello world"
+    "hello world"
   end
 end
