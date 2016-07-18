@@ -1,5 +1,7 @@
 require "monday/version"
 
 module Monday
-  # Your code goes here...
+  def self.say_hi
+    puts "hello world"
+  end
 end
